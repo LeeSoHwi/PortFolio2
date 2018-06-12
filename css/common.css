@@ -1,0 +1,40 @@
+/* Header */
+header #head img{margin-left:50px; padding:35px 0;}
+
+header #head{padding:0;}
+header #btnMenu{display:none;}
+
+/* Nav */
+nav {float:right; margin-right:50px;transition:all 1s ease;}
+nav ul li{float:left; padding:40px 0px;}
+nav ul li a{color:#152F4E; font-weight:700; font-size:1.3em;padding:40px 60px;}
+
+header #subMenus{height:0; transition:height 1s ease; z-index:9999;}
+header #subMenus div{float:right; margin-right:50px;}
+header #subMenus img{width:200px; padding:0 50px; margin-left:50px; margin-top:100px; transition:all 1s ease;}
+header #subMenus:hover img{margin-top:0px;}
+
+header ul.sub{position:relative; float:left;}
+ul.sub01{left:-35px;}
+ul.sub02{left:8px;}
+ul.sub03{left:-10px;}
+ul.sub04{left:18px;}
+ul.sub li{list-style:url(../img/common/inmenu.png);padding:8px 0;}
+ul.sub li a{color:#cfcfcf;}
+
+ul.sub li:hover{list-style:url(../img/common/inmenu_ov.png);}
+ul.sub li:hover a{color:#f4f4f4;}
+
+#head:hover ~ #subMenus div{height:100%;}
+
+/* Footer */
+#upper .left{padding-top:20px; margin-left:10px; float:left;}
+#upper .left a{color:#fff; padding:0 80px 0 0px;}
+#upper .left p{color:#bbb; font-size: 1em; line-height:1.5em; margin-top:10px; margin-left:77%;}
+#upper .right{margin-right:20px; float:right;}
+#upper .right img{width:40px; margin:20px 10px;}
+
+#lower{border-top:3px solid #646566;}
+#lower img{margin-top:15px; margin-left:10px;}
+#lower p{float:right; line-height:60px; color:#bbb; margin-right:30px;}
+

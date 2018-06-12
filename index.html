@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">	
+	<title> MANOFFIN </title>
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/common.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="layer">
+        <div class="layerPop">
+          <img src="img/main/layerpopup.png" alt="팝업공지" />
+          <a href="#" onclick="this.parentNode.parentNode.style.display = 'none'">[닫기]</a>        
+        </div>   
+    </div>
+
+	<!-- header -->
+	<header>
+		<div id="head">
+			<a href="index.html"><img src="img/common/logo.png" alt="마노핀 로고"/></a>
+			<nav>
+				<ul>
+					<li><a href="#">마노핀소개</a></li>
+					<li><a href="#">메뉴</a></li>
+					<li><a href="#">매장안내</a></li>
+					<li><a href="#">이벤트/뉴스</a></li>
+				</ul>
+			</nav>
+			<div id="btnMenu">
+				<img src="img/menu/btnMenu.png" alt="메뉴버튼1" />
+			</div>
+		
+		</div>
+		<div id="subMenus">
+			<img src="img/menu/muffin01.png" alt="머핀이미지"/>
+			<div>				
+				<ul class="sub sub01">
+					<li><a href="#">마노핀 소개</a></li>
+					<li><a href="#">마노핀 커피</a></li>
+					<li><a href="#">마노핀 머핀</a></li>
+				</ul>
+				<ul class="sub sub02">
+					<li><a href="#">신제품</a></li>
+					<li><a href="coffee.html">커피</a></li>
+					<li><a href="muffin.html">머핀</a></li>
+					<li><a href="#">음료</a></li>
+					<li><a href="#">푸드</a></li>
+				</ul>
+				<ul class="sub sub03">
+					<li><a href="#">매장찾기</a></li>
+					<li><a href="#">카페 마노핀</a></li>
+					<li><a href="#">마노핀 익스프레스</a></li>
+				</ul>
+				<ul class="sub sub04">
+					<li><a href="#">프로모션</a></li>
+					<li><a href="#">매장별 이벤트</a></li>
+					<li><a href="#">단체 주문 안내</a></li>
+					<li><a href="#">새소식</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- banner -->
+		<section id="mainVisual">
+			<div>
+				<img src="img/banner/banner05.jpg" alt="배너1"/>
+				<img src="img/banner/banner01.jpg" alt="배너2"/>
+				<img src="img/banner/banner02.jpg" alt="배너3"/>
+				<img src="img/banner/banner03.jpg" alt="배너4"/>
+				<img src="img/banner/banner04.jpg" alt="배너5"/>
+			</div>
+			<span id="btnPrev">&lt;</span>
+			<span id="btnNext">&gt;</span>
+			<ul>
+			    <li class="active"></li>			    
+			    <li></li>			    
+			    <li></li>			    
+			    <li></li>			    
+			    <li></li>			    
+			</ul>
+		</section>
+		
+		<!-- //banner -->
+		
+		<!-- contents -->	
+		<section id="contents">
+			<!-- notice -->
+			<article id="notice">
+				<div>
+					<p>공지사항</p>
+					<ul>
+						<li><a href="#">[이벤트] 새봄맞이 단체주문 이벤트 지금 바로 확인하세요!</a></li>
+						<li><a href="#">[신제품] Real Strawberry Story '발렌타인&화이트데이 음료' 출시</a></li>
+						<li><a href="#">[공지] 마노핀 계란 안정성 관련 안내</a></li>
+					</ul>
+				</div>
+				<a href="#"><img src="img/btn/btn_notice_more.png" alt="공지사항 페이지에서 더보기"></a>
+			</article>
+			<!-- //notice -->
+
+			<!-- promotion -->
+			<article id="promotion">
+				<div>
+					<p>프로모션 &amp; 이벤트</p>
+					<a href="#article" class="promDown"><img src="img/btn/btn_prom_down.png" alt="프로모션, 이벤트 내용 보기"></a>
+					<a href="#article" class="promUp"><img src="img/btn/btn_prom_up.png" alt="프로모션, 이벤트 내용 숨기기"></a>
+				</div>
+			</article>
+			<!-- //promotion -->
+		</section>
+	</div>
+		
+		<div id="proBanner">
+			<span class="prev">&lt;</span>
+			<span class="next">&gt;</span>
+			<div>
+				<ul>
+					<li><a href="#"><img src="img/promotion/pro_banner01.jpg" alt="단체주문시 10%할인"/></a></li>
+					<li><a href="#"><img src="img/promotion/pro_banner02.png" alt="단체주문 세트무료업그레이드"/></a></li>
+					<li><a href="#"><img src="img/promotion/pro_banner03.png" alt="단체주문 아메리카노할인"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //contents -->
+
+	<div class="wrap">
+		<!-- new -->
+		<section id="new">
+			<img src="img/new/realStrawberryChoco.png" alt="리얼딸기 초코크런치프라핀"/>
+			<div>
+				<p class="title">리얼딸기 초코크런치프라핀</p>
+				<span>진한 초코베이스에 딸기 리플잼,<br />바삭한 크런치와 생딸기까지!
+				<span>※ 2~3월 시즌 제품 ※</span>
+				<a href="#">자세히보기</a>
+                </span>
+            </div>
+		</section>
+		<!-- //new -->
+
+		<!-- brand -->
+		<section id="brand">
+			<div class="left"><p>지구와 나를 위한</p><p>좋은생각</p><p>마노핀 커피가 되다</p></div>
+			<div class="right"><p>매일 마셔도 기분 좋은 풍부한 맛과</p><p>지속가능한 환경에 대한 책임까지</p><p>커피 한 잔의 좋은 생각, <span>마노핀 커피</span></p><a href="#">브랜드소개 보러가기</a></div>	
+		</section>
+        <aside>
+            TOP
+        </aside>
+		<!-- //brand -->
+
+		<!-- menu -->
+		<section id="menu">
+			<div class="boxBack"><a href="#"><img src="img/coffee/muffin_01.jpg" alt="커피 메뉴로 이동하기"/></a></div>
+			<div class="boxFront"><a href="#"><img src="img/muffin/muffin_img1.jpg" alt="머핀 메뉴로 이동하기"/></a></div>
+			<div class="menuInfo">
+				<p>오늘 마노핀 한 잔, <br/>어떠세요?</p>
+				<span>아침 출근길, 지친 오후,<br />축하하고 싶은 특별한 날...<br />마노핀 수제머핀과 커피를 만나보세요<br />매일 똑같던 오늘이 더 맛있게 바뀝니다</span>
+				<a href="#">자세히 보기</a>
+			</div>
+			
+		</section>
+		<!-- //menu -->
+
+		<!-- store -->
+		<section id="store">
+			<img src="img/store/bg01.png" alt=""/>
+			<img src="img/store/bg03.png" alt=""/>
+			<img src="img/store/bg05.png" alt=""/>
+			<div class="roundBack"><img src="img/store/store_e_00.jpg" alt="익스프레스 매장 이미지"/></div>
+			<div class="roundFront"><img src="img/store/main_store_img.jpg" alt="매장찾기 이미지"/></div>
+			<div class="findStore">
+				<p>가까운 마노핀 매장을<br /> 안내해 드립니다!</p>
+				<a href="#">매장찾기</a>
+			</div>
+		</section>
+		<!-- //store -->
+	</div>
+	<!-- //wrap -->
+	<!-- footer -->
+	<footer>
+		<div id="upper">
+			<div>
+				<div class="left">
+					<a href="#">회사소개</a>
+					<a href="#">찾아오시는 길</a>
+					<a href="#">사이트 맵</a>
+					<a href="#">고객센터</a>
+					<p>080-001-1100<br/>(평일 10:00~19:30)</p>
+				</div>
+				<div class="right">
+					<a href="https://www.facebook.com/MANOFIN.official/?fref=ts" target="_blank"><img src="img/common/facebook2.png" alt="마노핀 공식 페이스북 계정으로"/></a>
+					<a href="https://www.instagram.com/manoffin_official/" target="_blank"><img src="img/common/instagram2.png" alt="마노핀 공식 인스타그램 게정으로"/></a>
+					<a href="https://blog.naver.com/manofin_official" target="_blank"><img src="img/common/blog2.png" alt="마노핀 공식 블로그로"/></a>
+				</div>
+			</div>
+		</div>
+		<div id="lower">
+			<div>
+				<img src="img/common/logo_footer.png" alt="풋터로고"/>
+				<p>COPYRIGHT© 2016 MP 그룹. ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+
+</body>
+</html>

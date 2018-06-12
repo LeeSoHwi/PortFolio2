@@ -1,0 +1,52 @@
+body{background:#f4f4f4; }
+.wrap{width:1280px; margin:0 auto; background:#f4f4f4;}
+
+/* Header */
+header{width:100%; height:110px; background:#f4f4f4; border-bottom:5px solid #152F4F;}
+header .btnMenu{display:none;}
+header #head{width:1280px; margin:0 auto;}
+header #subMenus{width:1280px; height:0px; margin:5px auto 0; position:relative; left:0; top:0; overflow:hidden; background:#152F4E; border-radius:0 0 10px 10px;}
+header #subMenus:hover{height:210px;}
+ul.sub{width:180px;}
+
+/* MainVisual */
+#mainVisual{width:100%; background:#f2f2f2;}
+#mainVisual::after{content: ""; display: block; clear: both;}
+
+/* Contents */
+#contents{width:100%; height:70px; background:#333;}
+#notice{float:left; width:50%; background:#152F4E;}
+#notice div{width:640px; height:70px;}
+#notice div p{float:left;}
+#notice div ul{float:left; height:70px; overflow:hidden;}
+
+#promotion{float:right; width:50%; background:#f4f4f4;}
+#promotion div{width:640px;}
+
+#proBanner{display:none; width:100%; height:380px; background:#f4f4f4; overflow:hidden;}
+#proBanner div{width:1280px; margin:0 auto; overflow:hidden;}
+#proBanner ul{width:500%;}
+#proBanner li{margin:50px 170px; float:left;}
+#proBanner li img{width:100%;}
+
+/* New */
+#new{width:100%; height:350px; background:#444;}
+
+/* Brand */
+#brand{width:100%; height:360px; background:#555;}
+
+/* Menu */
+#menu{width:100%; height:450px; background:#666; position:relative;}
+#menu .boxBack{width:250px; height:300px; background:#1A2131;}
+#menu .boxFront{width:250px; height:300px; background:lightblue;}
+
+/* Store */
+#store{width:100%; height:330px; background:#f4f4f4;}
+#store .roundBack{width:300px; height:300px; background:#1A2131;}
+#store .roundFront{width:250px; height:250px; background:lightblue;}
+
+/* Footer */
+footer{width:100%; height:180px; background:#152F4E;}
+#upper{height:120px;}
+#upper > div{width:1280px; margin:0 auto;}
+#lower > div{width:1280px; margin:0 auto;}
